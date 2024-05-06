@@ -1,5 +1,6 @@
 
 import '@/assets/styles/globals.css';
+import NavBar from '@/components/NavBar';
 
 export const metadata = {
 title: 'hotellia | Find the nearest B & B',
@@ -12,7 +13,8 @@ const MainLayout = ({children}) => {
     
     <html lang='en'>
         <body>
-        <div>{children}</div>  
+          <NavBar />
+        <main>{children}</main>  
         </body>
     
     </html>
