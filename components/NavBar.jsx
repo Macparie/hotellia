@@ -4,12 +4,17 @@ import Link from 'next/link';
 import logo from '@/assets/images/logo-white.png';
 import {FaGoogle}  from 'react-icons/fa'
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 import profile from '@/assets/images/profile.png';
 
 const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+
+  const pathname = usePathname ();
 
   return (
     <nav className="bg-pink-700 border-b border-pink-500">
@@ -64,24 +69,24 @@ const NavBar = () => {
             <div className="flex space-x-2">
               <Link
                 href="/"
-                className="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                className={ `${ pathname === '/' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                 >Home</Link >
               <Link
                 href="/hotels"
-                className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >Hotels</Link
-              >
-              <Link
+                className={ `${ pathname === '/hotels' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                >Hotels</Link>
+                {isLoggedIn && (<Link
                 href="/hotels/add"
-                className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >Add Hotels</Link>
+                className={ `${ pathname === '/hotels/add' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                >Add Hotels</Link>)}
+              
             </div>
           </div>
         </div>
         
 
         {/* <!-- Right Side Menu (Logged Out) --> */}
-        <div className="hidden md:block md:ml-6">
+        { !isLoggedIn && (<div className="hidden md:block md:ml-6">
           <div className="flex items-center">
             <button
               className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
@@ -91,9 +96,10 @@ const NavBar = () => {
             </button>
           </div>
         </div> 
-
+)}
+        
         {/* <!-- Right Side Menu (Logged In) --> */}
-        <div
+        { isLoggedIn && (<div
           className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0"
         >
           <Link href="/messages" className="relative group">
@@ -182,7 +188,8 @@ const NavBar = () => {
           )}
             
           </div>
-        </div>
+        </div>)}
+        
       </div>
     </div> 
 
@@ -192,23 +199,23 @@ const NavBar = () => {
      <div className="space-y-1 px-2 pb-3 pt-2">
        <Link
          href="/"
-         className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+         className={ `${pathname === '/' ? 'bg-black' : ''} text-white block rounded-md px-3 py-2 text-base font-medium`}
          >Home</Link>
        <Link
          href="/hotels"
-         className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+         className={ `${pathname === '/hotels' ? 'bg-black' : ''}  text-white block rounded-md px-3 py-2 text-base font-medium`}
          >Hotels</Link>
-       <Link
+         { isLoggedIn && (<Link
          href="/hotels/add"
-         className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-         >Add Property</Link>
-       <button
+         className={ `${pathname === '/hotels/add' ? 'bg-black' : ''}  text-white block rounded-md px-3 py-2 text-base font-medium`}
+         >Add Property</Link>)}
+       { !isLoggedIn && ( <button
          className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 my-4"
        >
 
-       <FaGoogle className='text-white mr-2' />
          <span>Login or Register</span>
-       </button>
+       </button>)}
+       
      </div>
    </div>
     )}

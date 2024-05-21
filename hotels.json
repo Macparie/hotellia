@@ -1,0 +1,839 @@
+
+[
+  {
+    "_id": "1",
+    "owner": "1",
+    "name": "Jos Grand Hotel",
+    "type": "Hotel",
+    "description": "Experience luxury at Jos Grand Hotel, located in the heart of the city. With spacious rooms and top-notch amenities, your stay is guaranteed to be memorable.",
+    "location": {
+      "street": "1 Grand Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930001"
+    },
+    "beds": 100,
+    "baths": 100,
+    "square_feet": 2500,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Gym/Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Laundry Service",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 20000,
+      "weekly": 120000,
+      "monthly": 450000
+    },
+    "seller_info": {
+      "name": "Jos Grand Hotel",
+      "email": "info@josgrandhotel.com",
+      "phone": "0800-123-4567"
+    },
+    "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "2",
+    "owner": "2",
+    "name": "Highland Resort",
+    "type": "Resort",
+    "description": "Escape to the tranquility of Highland Resort, nestled amidst the picturesque hills of Jos. Whether you're seeking adventure or relaxation, our resort offers something for everyone.",
+    "location": {
+      "street": "50 Highland Drive",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930002"
+    },
+    "beds": 50,
+    "baths": 50,
+    "square_feet": 3000,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Spa",
+      "Tennis Courts",
+      "Hiking Trails",
+      "Golf Course",
+      "Conference Facilities",
+      "Room Service",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "rates": {
+      "nightly": 25000,
+      "weekly": 150000,
+      "monthly": 550000
+    },
+    "seller_info": {
+      "name": "Highland Resort",
+      "email": "info@highlandresort.com",
+      "phone": "0800-987-6543"
+    },
+    "images": ["b1.jpg", "a4.jpg", "b2.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "3",
+    "owner": "3",
+    "name": "City View Inn",
+    "type": "Inn",
+    "description": "Enjoy a comfortable stay at City View Inn, conveniently located near Jos city center. Our cozy rooms and friendly service ensure a pleasant experience for our guests.",
+    "location": {
+      "street": "15 City View Street",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930003"
+    },
+    "beds": 20,
+    "baths": 20,
+    "square_feet": 1500,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar",
+      "Room Service",
+      "Laundry Service",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "rates": {
+      "nightly": 8000,
+      "weekly": 50000,
+      "monthly": 180000
+    },
+    "seller_info": {
+      "name": "City View Inn",
+      "email": "info@cityviewinn.com",
+      "phone": "0800-246-1357"
+    },
+    "images": ["c1.jpg", "c2.jpg", "a1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "4",
+    "owner": "4",
+    "name": "Plateau Heights Hotel",
+    "type": "Hotel",
+    "description": "Perched atop a hill, Plateau Heights Hotel offers breathtaking views of the city below. Our elegant rooms and personalized service make us the ideal choice for discerning travelers.",
+    "location": {
+      "street": "10 Heights Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930004"
+    },
+    "beds": 80,
+    "baths": 80,
+    "square_feet": 2000,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 18000,
+      "weekly": 110000,
+      "monthly": 420000
+    },
+    "seller_info": {
+      "name": "Plateau Heights Hotel",
+      "email": "info@plateauheightshotel.com",
+      "phone": "0800-111-2222"
+    },
+    "images": ["a1.jpg", "b1.jpg", "a1.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "5",
+    "owner": "5",
+    "name": "Green Valley Resort",
+    "type": "Resort",
+    "description": "Immerse yourself in nature at Green Valley Resort, surrounded by lush greenery and serene landscapes. Our resort offers a peaceful retreat away from the hustle and bustle of the city.",
+    "location": {
+      "street": "25 Green Valley Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930005"
+    },
+    "beds": 60,
+    "baths": 60,
+    "square_feet": 2800,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Spa",
+      "Tennis Courts",
+      "Hiking Trails",
+      "Golf Course",
+      "Conference Facilities",
+      "Room Service",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "rates": {
+      "nightly": 22000,
+      "weekly": 130000,
+      "monthly": 500000
+    },
+    "seller_info": {
+      "name": "Green Valley Resort",
+      "email": "info@greenvalleyresort.com",
+      "phone": "0800-333-4444"
+    },
+    "images": ["c1.jpg", "b1.jpg", "a1.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "6",
+    "owner": "6",
+    "name": "Hilltop Lodge",
+    "type": "Lodge",
+    "description": "Discover rustic charm at Hilltop Lodge, nestled amidst the hills of Jos. Our cozy rooms and warm hospitality ensure a memorable stay for all our guests.",
+    "location": {
+      "street": "5 Hilltop Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930006"
+    },
+    "beds": 30,
+    "baths": 30,
+    "square_feet": 1800,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar",
+      "Room Service",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "rates": {
+      "nightly": 10000,
+      "weekly": 60000,
+      "monthly": 220000
+    },
+    "seller_info": {
+      "name": "Hilltop Lodge",
+      "email": "info@hilltoplodge.com",
+      "phone": "0800-555-6666"
+    },
+    "images": ["b1.jpg", "b1.jpg", "b1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "7",
+    "owner": "7",
+    "name": "Sunrise Hotel",
+    "type": "Hotel",
+    "description": "Wake up to stunning sunrise views at Sunrise Hotel, located on the outskirts of Jos. Our comfortable rooms and tranquil surroundings ensure a relaxing stay for our guests.",
+    "location": {
+      "street": "20 Sunrise Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930007"
+    },
+    "beds": 70,
+    "baths": 70,
+    "square_feet": 2300,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 19000,
+      "weekly": 115000,
+      "monthly": 430000
+    },
+    "seller_info": {
+      "name": "Sunrise Hotel",
+      "email": "info@sunrisehotel.com",
+      "phone": "0800-777-8888"
+    },
+    "images": ["f1.jpg", "h1.jpg", "g1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "8",
+    "owner": "8",
+    "name": "City Plaza Hotel",
+    "type": "Hotel",
+    "description": "Experience the vibrancy of city life at City Plaza Hotel, located in the heart of Jos. Our modern rooms and convenient location make us the perfect choice for business and leisure travelers alike.",
+    "location": {
+      "street": "30 Plaza Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930008"
+    },
+    "beds": 90,
+    "baths": 90,
+    "square_feet": 2200,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 21000,
+      "weekly": 125000,
+      "monthly": 460000
+    },
+    "seller_info": {
+      "name": "City Plaza Hotel",
+      "email": "info@cityplazahotel.com",
+      "phone": "0800-999-0000"
+    },
+    "images": ["h1.jpg", "h2.jpg", "a1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "9",
+    "owner": "9",
+    "name": "Mountain View Lodge",
+    "type": "Lodge",
+    "description": "Enjoy breathtaking mountain views at Mountain View Lodge, situated amidst the scenic beauty of Jos. Our cozy rooms and warm hospitality ensure a memorable stay for our guests.",
+    "location": {
+      "street": "40 Mountain View Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930009"
+    },
+    "beds": 40,
+    "baths": 40,
+    "square_feet": 1700,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar",
+      "Room Service",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "rates": {
+      "nightly": 12000,
+      "weekly": 70000,
+      "monthly": 260000
+    },
+    "seller_info": {
+      "name": "Mountain View Lodge",
+      "email": "info@mountainviewlodge.com",
+      "phone": "0800-123-9876"
+    },
+    "images": ["c2.jpg", "f1.jpg", "h2.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "10",
+    "owner": "10",
+    "name": "Peaceful Haven Resort",
+    "type": "Resort",
+    "description": "Escape to the serenity of Peaceful Haven Resort, located amidst lush greenery and rolling hills. Our tranquil surroundings and personalized service ensure a peaceful retreat for all our guests.",
+    "location": {
+      "street": "35 Haven Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930010"
+    },
+    "beds": 50,
+    "baths": 50,
+    "square_feet": 2500,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Spa",
+      "Tennis Courts",
+      "Hiking Trails",
+      "Golf Course",
+      "Conference Facilities",
+      "Room Service",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "rates": {
+      "nightly": 23000,
+      "weekly": 140000,
+      "monthly": 520000
+    },
+    "seller_info": {
+      "name": "Peaceful Haven Resort",
+      "email": "info@peacefulhavenresort.com",
+      "phone": "0800-246-1357"
+    },
+    "images": ["b2.jpg", "b1.jpg", "c2.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "11",
+    "owner": "11",
+    "name": "Tranquil Oasis Hotel",
+    "type": "Hotel",
+    "description": "Experience tranquility at Tranquil Oasis Hotel, nestled amidst lush gardens and serene surroundings. Our comfortable rooms and personalized service ensure a relaxing stay for all our guests.",
+    "location": {
+      "street": "55 Oasis Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930011"
+    },
+    "beds": 75,
+    "baths": 75,
+    "square_feet": 2400,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 20000,
+      "weekly": 120000,
+      "monthly": 450000
+    },
+    "seller_info": {
+      "name": "Tranquil Oasis Hotel",
+      "email": "info@tranquiloasishotel.com",
+      "phone": "0800-567-8901"
+    },
+    "images": ["h2.jpg", "a3.jpg", "c1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "12",
+    "owner": "12",
+    "name": "Golden Hills Resort",
+    "type": "Resort",
+    "description": "Discover luxury at Golden Hills Resort, where elegance meets comfort amidst the breathtaking landscapes of Jos. Our premium amenities and warm hospitality ensure a memorable stay for our guests.",
+    "location": {
+      "street": "65 Golden Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930012"
+    },
+    "beds": 100,
+    "baths": 100,
+    "square_feet": 2500,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Spa",
+      "Tennis Courts",
+      "Hiking Trails",
+      "Golf Course",
+      "Conference Facilities",
+      "Room Service",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "rates": {
+      "nightly": 24000,
+      "weekly": 145000,
+      "monthly": 540000
+    },
+    "seller_info": {
+      "name": "Golden Hills Resort",
+      "email": "info@goldenhillsresort.com",
+      "phone": "0800-246-1357"
+    },
+    "images": ["f1.jpg", "c1.jpg", "c2.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "13",
+    "owner": "13",
+    "name": "City Lights Inn",
+    "type": "Inn",
+    "description": "Experience the charm of Jos at City Lights Inn, located in the heart of the city. Our cozy rooms and personalized service ensure a memorable stay for all our guests.",
+    "location": {
+      "street": "75 City Lights Street",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930013"
+    },
+    "beds": 30,
+    "baths": 30,
+    "square_feet": 1800,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar",
+      "Room Service",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "rates": {
+      "nightly": 11000,
+      "weekly": 65000,
+      "monthly": 240000
+    },
+    "seller_info": {
+      "name": "City Lights Inn",
+      "email": "info@citylightsinn.com",
+      "phone": "0800-888-9999"
+    },
+    "images": ["a4.jpg", "b1.jpg", "c1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "14",
+    "owner": "14",
+    "name": "Valley View Hotel",
+    "type": "Hotel",
+    "description": "Enjoy stunning valley views at Valley View Hotel, located amidst the natural beauty of Jos. Our comfortable rooms and warm hospitality ensure a memorable stay for our guests.",
+    "location": {
+      "street": "85 Valley View Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930014"
+    },
+    "beds": 60,
+    "baths": 60,
+    "square_feet": 2000,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 17000,
+      "weekly": 100000,
+      "monthly": 400000
+    },
+    "seller_info": {
+      "name": "Valley View Hotel",
+      "email": "info@valleyviewhotel.com",
+      "phone": "0800-246-1357"
+    },
+    "images": ["g1.jpg", "f1.jpg", "b1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "15",
+    "owner": "15",
+    "name": "Serene Heights Lodge",
+    "type": "Lodge",
+    "description": "Find serenity at Serene Heights Lodge, nestled amidst the tranquil hills of Jos. Our cozy rooms and warm hospitality ensure a relaxing stay for all our guests.",
+    "location": {
+      "street": "95 Serene Heights Street",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930015"
+    },
+    "beds": 40,
+    "baths": 40,
+    "square_feet": 1700,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar",
+      "Room Service",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "rates": {
+      "nightly": 13000,
+      "weekly": 75000,
+      "monthly": 280000
+    },
+    "seller_info": {
+      "name": "Serene Heights Lodge",
+      "email": "info@sereneheightslodge.com",
+      "phone": "0800-123-4567"
+    },
+    "images": ["a1.jpg", "a3.jpg", "a2.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "16",
+    "owner": "16",
+    "name": "Majestic View Hotel",
+    "type": "Hotel",
+    "description": "Experience the majesty of Jos at Majestic View Hotel, where panoramic vistas await you at every turn. Our elegant rooms and personalized service ensure a memorable stay for all our guests.",
+    "location": {
+      "street": "105 Majestic Avenue",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930016"
+    },
+    "beds": 70,
+    "baths": 70,
+    "square_feet": 2300,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 18000,
+      "weekly": 110000,
+      "monthly": 420000
+    },
+    "seller_info": {
+      "name": "Majestic View Hotel",
+      "email": "info@majesticviewhotel.com",
+      "phone": "0800-555-6666"
+    },
+    "images": ["h2.jpg", "f1.jpg", "h1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "17",
+    "owner": "17",
+    "name": "Oasis Resort",
+    "type": "Resort",
+    "description": "Escape to paradise at Oasis Resort, where azure waters and sandy beaches await you. Our luxurious accommodations and world-class amenities ensure a truly unforgettable experience.",
+    "location": {
+      "street": "115 Oasis Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930017"
+    },
+    "beds": 80,
+    "baths": 80,
+    "square_feet": 2400,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Spa",
+      "Tennis Courts",
+      "Beach Access",
+      "Conference Facilities",
+      "Room Service",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "rates": {
+      "nightly": 26000,
+      "weekly": 160000,
+      "monthly": 600000
+    },
+    "seller_info": {
+      "name": "Oasis Resort",
+      "email": "info@oasisresort.com",
+      "phone": "0800-123-9876"
+    },
+    "images": ["a2.jpg", "a1.jpg", "a3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "18",
+    "owner": "18",
+    "name": "Golden Sands Hotel",
+    "type": "Hotel",
+    "description": "Experience luxury at Golden Sands Hotel, where golden beaches and azure waters beckon you. Our elegant accommodations and top-notch amenities ensure a truly unforgettable stay.",
+    "location": {
+      "street": "125 Golden Sands Street",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930018"
+    },
+    "beds": 90,
+    "baths": 90,
+    "square_feet": 2200,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 19000,
+      "weekly": 115000,
+      "monthly": 430000
+    },
+    "seller_info": {
+      "name": "Golden Sands Hotel",
+      "email": "info@goldensandshotel.com",
+      "phone": "0800-888-9999"
+    },
+    "images": ["c2.jpg", "g1.jpg", "h1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "19",
+    "owner": "19",
+    "name": "Sunset Lodge",
+    "type": "Lodge",
+    "description": "Experience the beauty of the setting sun at Sunset Lodge, where panoramic views and warm hospitality await you. Our cozy accommodations ensure a memorable stay for all our guests.",
+    "location": {
+      "street": "135 Sunset Street",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930019"
+    },
+    "beds": 40,
+    "baths": 40,
+    "square_feet": 1700,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar",
+      "Room Service",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "rates": {
+      "nightly": 14000,
+      "weekly": 80000,
+      "monthly": 300000
+    },
+    "seller_info": {
+      "name": "Sunset Lodge",
+      "email": "info@sunsetlodge.com",
+      "phone": "0800-777-8888"
+    },
+    "images": ["f1.jpg", "b2.jpg", "b1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  },
+  {
+    "_id": "20",
+    "owner": "20",
+    "name": "Tranquil Retreat Hotel",
+    "type": "Hotel",
+    "description": "Find peace and relaxation at Tranquil Retreat Hotel, nestled amidst serene landscapes and lush gardens. Our comfortable accommodations and personalized service ensure a rejuvenating stay for all our guests.",
+    "location": {
+      "street": "145 Tranquil Retreat Road",
+      "city": "Jos",
+      "state": "Plateau",
+      "zipcode": "930020"
+    },
+    "beds": 80,
+    "baths": 80,
+    "square_feet": 2300,
+    "amenities": [
+      "Free Wifi",
+      "Restaurant",
+      "Bar/Lounge",
+      "Swimming Pool",
+      "Fitness Center",
+      "Spa",
+      "Conference Rooms",
+      "Room Service",
+      "Air Conditioning",
+      "Parking",
+      "Business Center"
+    ],
+    "rates": {
+      "nightly": 20000,
+      "weekly": 120000,
+      "monthly": 450000
+    },
+    "seller_info": {
+      "name": "Tranquil Retreat Hotel",
+      "email": "info@tranquilretreathotel.com",
+      "phone": "0800-987-6543"
+    },
+    "images": ["h1.jpg", "h2.jpg", "c1.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-10T00:00:00.000Z",
+    "updatedAt": "2024-05-10T00:00:00.000Z"
+  }
+]
