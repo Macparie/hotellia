@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
+import HomeHotels from '@/components/HomeHotels'
 import InfoBoxes from '@/components/InfoBoxes'
 
 
@@ -8,6 +9,7 @@ const HomePage = () => {
     <>
        <Hero />
        <InfoBoxes />
+       <HomeHotels />
     </>
   )
 }

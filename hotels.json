@@ -52,7 +52,7 @@
     "description": "Escape to the tranquility of Highland Resort, nestled amidst the picturesque hills of Jos. Whether you're seeking adventure or relaxation, our resort offers something for everyone.",
     "location": {
       "street": "50 Highland Drive",
-      "city": "Jos",
+      "city": "Rayfield",
       "state": "Plateau",
       "zipcode": "930002"
     },
@@ -96,7 +96,7 @@
     "description": "Enjoy a comfortable stay at City View Inn, conveniently located near Jos city center. Our cozy rooms and friendly service ensure a pleasant experience for our guests.",
     "location": {
       "street": "15 City View Street",
-      "city": "Jos",
+      "city": "Bukuru",
       "state": "Plateau",
       "zipcode": "930003"
     },
@@ -553,12 +553,12 @@
     "description": "Enjoy stunning valley views at Valley View Hotel, located amidst the natural beauty of Jos. Our comfortable rooms and warm hospitality ensure a memorable stay for our guests.",
     "location": {
       "street": "85 Valley View Road",
-      "city": "Jos",
-      "state": "Plateau",
+      "city": "Niger",
+      "state": "Minna",
       "zipcode": "930014"
     },
-    "beds": 60,
-    "baths": 60,
+    "beds": 2,
+    "baths": 1,
     "square_feet": 2000,
     "amenities": [
       "Free Wifi",
@@ -596,8 +596,8 @@
     "description": "Find serenity at Serene Heights Lodge, nestled amidst the tranquil hills of Jos. Our cozy rooms and warm hospitality ensure a relaxing stay for all our guests.",
     "location": {
       "street": "95 Serene Heights Street",
-      "city": "Jos",
-      "state": "Plateau",
+      "city": "GRA",
+      "state": "Kano",
       "zipcode": "930015"
     },
     "beds": 40,
@@ -677,7 +677,7 @@
     "description": "Escape to paradise at Oasis Resort, where azure waters and sandy beaches await you. Our luxurious accommodations and world-class amenities ensure a truly unforgettable experience.",
     "location": {
       "street": "115 Oasis Road",
-      "city": "Jos",
+      "city": "Langtang",
       "state": "Plateau",
       "zipcode": "930017"
     },
